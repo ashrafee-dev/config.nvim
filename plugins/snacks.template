@@ -1,0 +1,14 @@
+return {
+  {
+    "folke/snacks.nvim",
+    opts = {
+      terminal = {
+        win = {
+          width = 0.85, -- 85% of editor width
+          height = 0.25, -- 80% of editor height
+          border = "rounded",
+        },
+      },
+    },
+  },
+}
