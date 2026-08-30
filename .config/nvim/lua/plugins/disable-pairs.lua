@@ -1,6 +1,11 @@
 return {
   {
     "echasnovski/mini.pairs",
-    enabled = false,
+    opts = {
+      mappings = {
+        ['"'] = false,
+        ["'"] = false,
+      },
+    },
   },
 }
